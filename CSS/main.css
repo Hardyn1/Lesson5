@@ -12,6 +12,13 @@ body {
   src: url(Fonts/Lifehack-Bold.ttf);
 }
 
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
 i,
 div,
 p,
@@ -79,11 +86,77 @@ p {
 /* ----- FIRST SECTION ----- */
 
 .first__section {
-  padding: 139px 0px;
+  padding: 139px;
   text-align: center;
 }
 
 .section__title {
+  margin-bottom: 50px;
   font-size: 26px;
   text-transform: uppercase;
+}
+
+.circles__info {
+  margin: 0 auto;
+  max-width: 695px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 222px;
+}
+
+.circles__info p {
+  margin-top: 23px;
+  font-size: 16px;
+}
+
+.fa-1 {
+  color: #ffa200;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 20px 29px;
+  font-size: 30px;
+}
+
+.fa-2 {
+  color: #fff;
+  background: #ffa200;
+  border-radius: 50%;
+  padding: 20px 29px;
+  font-size: 30px;
+}
+
+.fa-3 {
+  color: #ffa200;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 20px 29px;
+  font-size: 30px;
+}
+
+.full__section__info {
+  display: flex;
+}
+
+.title__about {
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 141px;
+}
+
+.mission {
+  margin-bottom: 45px;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: left;
+  border-bottom: 3px solid #2d63eb;
+}
+
+.section__lorem {
+  text-align: left;
+  line-height: 24px;
+  font-size: 15px;
+  max-width: 669px;
+  width: 100%;
+  padding-bottom: 32px;
 }
