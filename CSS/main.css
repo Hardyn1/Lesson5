@@ -1,0 +1,89 @@
+/*----- MAIN SETTINGS ----- */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+  color: #000;
+}
+
+@font-face {
+  font-family: Lifehack;
+  src: url(Fonts/Lifehack-Bold.ttf);
+}
+
+i,
+div,
+p,
+button,
+a,
+input,
+span {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* ----- HEADER ----- */
+
+.container {
+  max-width: 1091px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  padding: 59px 0 237px;
+  color: #fff;
+  background: linear-gradient(127deg, #4a7dfc 2.76%, #1148d3 82.86%) no-repeat,
+    center top;
+}
+
+.header__name {
+  font-size: 27px;
+  font-family: Lifehack;
+  margin-bottom: 135px;
+}
+
+.header__title {
+  margin: 0 auto;
+  max-width: 578px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 27px;
+  margin-bottom: 73px;
+}
+
+.header__btn {
+  font-size: 13px;
+  font-weight: 700px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  max-width: 218px;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 27px;
+  padding: 20px 35px 19px 36px;
+  margin-bottom: 173px;
+}
+
+/* ----- FIRST SECTION ----- */
+
+.first__section {
+  padding: 139px 0px;
+  text-align: center;
+}
+
+.section__title {
+  font-size: 26px;
+  text-transform: uppercase;
+}
