@@ -38,6 +38,10 @@ p {
   margin: 0;
 }
 
+.d-flex {
+  display: flex;
+}
+
 /* ----- HEADER ----- */
 
 .container {
@@ -134,10 +138,6 @@ p {
   font-size: 30px;
 }
 
-.full__section__info {
-  display: flex;
-}
-
 .title__about {
   font-size: 26px;
   text-transform: uppercase;
@@ -152,6 +152,11 @@ p {
   border-bottom: 3px solid #2d63eb;
 }
 
+b {
+  color: #2d63eb;
+  border-bottom: 2px solid;
+}
+
 .section__lorem {
   text-align: left;
   line-height: 24px;
@@ -159,4 +164,9 @@ p {
   max-width: 669px;
   width: 100%;
   padding-bottom: 32px;
+}
+
+.little__icon__stat {
+  max-width: 174px;
+  width: 100%;
 }
