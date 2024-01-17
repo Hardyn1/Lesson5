@@ -138,35 +138,68 @@ p {
   font-size: 30px;
 }
 
-.title__about {
+.about__me {
   font-size: 26px;
   text-transform: uppercase;
   margin-bottom: 141px;
 }
 
+.full__section__info {
+  /* margin-left: 14px; */
+}
+
+.section__mission {
+  max-width: 683px;
+  width: 100%;
+}
+
 .mission {
+  border-bottom: 2px solid #2d63eb;
+  margin-left: -14px;
   margin-bottom: 45px;
+  width: 113px;
+}
+
+.mission__title {
   font-size: 22px;
-  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 13px;
   text-align: left;
-  border-bottom: 3px solid #2d63eb;
+  text-transform: uppercase;
 }
 
 b {
   color: #2d63eb;
-  border-bottom: 2px solid;
+  border-bottom: 2px solid #2d63eb;
+}
+
+.section__lorem__1 {
+  text-align: left;
+  line-height: 24px;
+  font-size: 15px;
+  padding-bottom: 32px;
 }
 
 .section__lorem {
   text-align: left;
   line-height: 24px;
   font-size: 15px;
-  max-width: 669px;
-  width: 100%;
-  padding-bottom: 32px;
 }
 
-.little__icon__stat {
-  max-width: 174px;
+.section__blue {
+  max-width: 284px;
   width: 100%;
+  margin-left: 130px;
+}
+
+.history {
+  border-bottom: 2px solid #2d63eb;
+  margin-left: -14px;
+  margin-bottom: 41px;
+  width: 113px;
+}
+
+.blue__main__info {
+  text-align: left;
+  flex-direction: column;
 }
