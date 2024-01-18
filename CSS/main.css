@@ -33,6 +33,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p {
   padding: 0;
   margin: 0;
@@ -41,6 +42,10 @@ p {
 h4 {
   padding-bottom: 8px;
   color: #2d63eb;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .justify-content-between {
@@ -225,3 +230,37 @@ b {
 }
 
 /* ----- SECOND SECTION ----- */
+
+.second__section {
+  padding: 130px 0px;
+  background: #e6e9f1;
+}
+
+.second__title {
+  text-transform: uppercase;
+  font-size: 26px;
+}
+
+.second__paragraph {
+  font-size: 14px;
+  max-width: 417px;
+  width: 100%;
+  margin: 50px auto 0;
+}
+
+.section__btn {
+  font-size: 13px;
+  font-weight: 700px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  max-width: 218px;
+  width: 100%;
+  background: #2d63eb;
+  border-radius: 27px;
+  padding: 20px 35px 19px 36px;
+  margin: 70px auto 0;
+  display: block;
+}
+
+/* ----- FOOTER ----- */
