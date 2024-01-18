@@ -38,6 +38,15 @@ p {
   margin: 0;
 }
 
+h4 {
+  padding-bottom: 8px;
+  color: #2d63eb;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
 .d-flex {
   display: flex;
 }
@@ -144,10 +153,6 @@ p {
   margin-bottom: 141px;
 }
 
-.full__section__info {
-  /* margin-left: 14px; */
-}
-
 .section__mission {
   max-width: 683px;
   width: 100%;
@@ -189,7 +194,6 @@ b {
 .section__blue {
   max-width: 284px;
   width: 100%;
-  margin-left: 130px;
 }
 
 .history {
@@ -201,5 +205,23 @@ b {
 
 .blue__main__info {
   text-align: left;
-  flex-direction: column;
 }
+
+.little__icon__stat {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 19px;
+}
+
+.little__stat {
+  max-width: 195px;
+  width: 100%;
+  text-align: left;
+}
+
+.little__stat p {
+  font-size: 15px;
+  color: #2f383b7a;
+}
+
+/* ----- SECOND SECTION ----- */
