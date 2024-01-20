@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-family: Tahoma, sans-serif;
   color: #000;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -66,7 +67,7 @@ h4 {
 
 .header {
   text-align: center;
-  padding: 59px 0 237px;
+  padding: 59px 0 48px;
   color: #fff;
   background: linear-gradient(127deg, #4a7dfc 2.76%, #1148d3 82.86%) no-repeat,
     center top;
@@ -101,10 +102,14 @@ h4 {
   margin-bottom: 173px;
 }
 
+.header__arrow {
+  margin-top: 173px;
+}
+
 /* ----- FIRST SECTION ----- */
 
 .first__section {
-  padding: 139px;
+  padding: 139px 0px 54px;
   text-align: center;
 }
 
@@ -114,6 +119,9 @@ h4 {
   text-transform: uppercase;
 }
 
+.vector {
+  text-align: center;
+}
 .circles__info {
   margin: 0 auto;
   max-width: 695px;
@@ -167,7 +175,8 @@ h4 {
   border-bottom: 2px solid #2d63eb;
   margin-left: -14px;
   margin-bottom: 45px;
-  width: 113px;
+  max-width: 113px;
+  width: 100%;
 }
 
 .mission__title {
@@ -205,7 +214,8 @@ b {
   border-bottom: 2px solid #2d63eb;
   margin-left: -14px;
   margin-bottom: 41px;
-  width: 113px;
+  max-width: 113px;
+  width: 100%;
 }
 
 .blue__main__info {
@@ -264,3 +274,20 @@ b {
 }
 
 /* ----- FOOTER ----- */
+
+.footer {
+  background: #06319e;
+  padding-top: 56px;
+  padding-bottom: 38px;
+}
+
+.footer__menu {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__last {
+  font-size: 13px;
+  color: #fff;
+  border-bottom: 1px dotted #fff;
+}
