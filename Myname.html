@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Myname</title>
+    <style>
+      @font-face {
+        font-family: Lifehack Bold;
+        src: url(Fonts/Lifehack-Bold.ttf);
+      }
+    </style>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -12,7 +18,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="\CSS\main.css" />
-    <link rel="icon" href="site.icon.ico" />
+    <link rel="icon" href="/Image/site.icon.ico" />
   </head>
   <body>
     <header class="header">
@@ -27,22 +33,22 @@
         <i class="fa-solid fa-chevron-down header__arrow"></i>
       </div>
     </header>
-    <div class="first__section">
+    <section class="first__section">
       <div class="container">
         <div class="section__asking">
           <h2 class="section__title">Почему ко мне обращаются</h2>
           <div class="circles">
             <ul class="circles__info">
               <li class="circle__1">
-                <i class="fa-solid fa-1"></i>
+                <span>1</span>
                 <p>Умный и разумный</p>
               </li>
               <li class="circle__1">
-                <i class="fa-solid fa-2"></i>
+                <span>2</span>
                 <p>Красивый и приятный</p>
               </li>
               <li class="circle__1">
-                <i class="fa-solid fa-3"></i>
+                <span>3</span>
                 <p>Мой код любят девушки</p>
               </li>
             </ul>
@@ -53,51 +59,51 @@
           <div class="full__section__info d-flex justify-content-between">
             <div class="section__mission">
               <div class="mission__title">О миссии</div>
-              <div class="mission"></div>
-              <p class="section__lorem__1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <p class="section__lorem">
-                Duis aute irure dolor in <b>reprehenderit</b> in voluptate velit
-                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum. Sed ut perspiciatis unde
-                omnis iste natus error sit voluptatem accusantium doloremque
-                laudantium, totam rem. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum.
-              </p>
+              <div class="about__text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <p>
+                  Duis aute irure dolor in <b>reprehenderit</b> in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                  sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum. Sed ut
+                  perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+                </p>
+              </div>
             </div>
             <div class="section__blue">
               <div class="mission__title">О истории</div>
-              <div class="history"></div>
               <div class="blue__main__info">
                 <div class="little__icon__stat">
-                  <img src="\Image\Group 5.svg" alt="bug" class="svgs" />
+                  <img src="Image\Group 5.svg" alt="bug" class="svgs" />
                   <div class="little__stat">
                     <h4>Волшебный жук</h4>
                     <p>Позволяет быть в тонусе</p>
                   </div>
                 </div>
                 <div class="little__icon__stat">
-                  <img src="\Image\Group 6.svg" alt="bell" class="svgs" />
+                  <img src="Image\Group 6.svg" alt="bell" class="svgs" />
                   <div class="little__stat">
                     <h4>Особый колокольчик</h4>
                     <p>Позволяет не проспать</p>
                   </div>
                 </div>
                 <div class="little__icon__stat">
-                  <img src="\Image\Group 7.svg" alt="lightning" class="svgs" />
+                  <img src="Image\Group 7.svg" alt="lightning" class="svgs" />
                   <div class="little__stat">
                     <h4>Человек-молния</h4>
                     <p>Я сдаю все проекты раньше</p>
                   </div>
                 </div>
                 <div class="little__icon__stat">
-                  <img src="\Image\Group 8.svg" alt="camera" class="svgs" />
+                  <img src="Image\Group 8.svg" alt="camera" class="svgs" />
                   <div class="little__stat">
                     <h4>Фотографирую</h4>
                     <p>Просто мне это нравится</p>
@@ -108,7 +114,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <section class="second__section text-center">
       <div class="container">
         <div class="take__call">
@@ -127,7 +133,9 @@
           <ul class="footer__list d-flex justify-content-between">
             <li>Все права защищены</li>
             <li>Мое имя и фамилия</li>
-            <li class="footer__last">Политика конфиденциальности</li>
+            <li class="footer__last">
+              <a href="#">Политика конфиденциальности</a>
+            </li>
           </ul>
         </div>
       </div>
